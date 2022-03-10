@@ -45,12 +45,12 @@ const Register =()=>{
                         </div>
 
                         <div class="form-outline mb-4">
-                          <input type="email" id="form2Example17" onChange={(e)=>{setEmail(e.target.value)}} class="form-control form-control-lg" />
+                          <input type="email" id="form2Example17" onChange={(e)=>{setEmail(e.target.value)}} class="form-control form-control-lg" required/>
                           <label class="form-label" for="form2Example17">Email address</label>
                         </div>
       
                         <div class="form-outline mb-4">
-                          <input type="password" id="form2Example27" onChange={(e)=>{setPassword(e.target.value)}} class="form-control form-control-lg" />
+                          <input type="password" id="form2Example27" onChange={(e)=>{setPassword(e.target.value)}} class="form-control form-control-lg" required/>
                           <label class="form-label" for="form2Example27">Password</label>
                         </div>
       

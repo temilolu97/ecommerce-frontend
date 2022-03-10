@@ -91,6 +91,7 @@ const AllCategeories =()=>{
                 className="form-control"
                 value={value}
                 onChange={(e) => setValue(e.target.value)}
+                required
               />
             </div>
             <button onClick={AddNewCategory} className="btn btn-success">

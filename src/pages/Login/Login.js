@@ -44,12 +44,12 @@ const Login =({setToken})=>{
                   <h5 class="fw-normal mb-3 pb-3" style={{letterSpacing: "1px"}}>Sign into your account</h5>
 
                   <div class="form-outline mb-4">
-                    <input type="email" id="email" onChange={(e)=>{setEmail(e.target.value)}} class="form-control form-control-lg" />
+                    <input type="email" id="email" onChange={(e)=>{setEmail(e.target.value)}} class="form-control form-control-lg" required/>
                     <label class="form-label" for="email">Email address</label>
                   </div>
 
                   <div class="form-outline mb-4">
-                    <input type="password" id="password" onChange={(e)=>{setPassword(e.target.value)}} class="form-control form-control-lg" />
+                    <input type="password" id="password" onChange={(e)=>{setPassword(e.target.value)}} class="form-control form-control-lg" required/>
                     <label class="form-label" for="password">Password</label>
                   </div>
 

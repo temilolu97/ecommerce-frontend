@@ -36,7 +36,7 @@ const EditCategoryModal = (props) => {
         <form>
             <div>
                 <label>Category Name</label>
-                <input className='form-control' type="text" value={category} onChange={(e)=>{setCategory(e.target.value)}} />
+                <input className='form-control' type="text" value={category} onChange={(e)=>{setCategory(e.target.value)}} required/>
             </div>
             <button className='btn btn-success mt-2' onClick={(e)=>{e.preventDefault(); handleUpdate(category, props.category.id)}} type="submit" >Save Changes</button>
         </form>
